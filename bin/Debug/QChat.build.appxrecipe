@@ -37,9 +37,6 @@
     <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\Button1.png">
       <PackagePath>images\Button1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\demo.png">
-      <PackagePath>images\demo.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\LargeTile.scale-100.png">
       <PackagePath>images\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -54,9 +51,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\me.png">
-      <PackagePath>images\me.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
@@ -126,9 +120,6 @@
       <PackagePath>images\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\LockScreenLogo.scale-200.png">
-      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\SplashScreen.scale-200.png">
       <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -148,11 +139,11 @@
     <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\Background1.psd">
       <PackagePath>images\Background1.psd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\Button1 - 复制.psd">
+      <PackagePath>images\Button1 - 复制.psd</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\Button1.psd">
       <PackagePath>images\Button1.psd</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\demo.psd">
-      <PackagePath>images\demo.psd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\images\logo.psd">
       <PackagePath>images\logo.psd</PackagePath>
