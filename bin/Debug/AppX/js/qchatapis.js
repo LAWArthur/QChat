@@ -4,7 +4,7 @@
             $("#" + ref).append($("<li></li>").append($("<img/>").attr("src", "../images/" + characters[ref].name + ".png")).append(ms));
             clearInterval(t);
             characters[ref].actions[++characters[ref].index]();
-        }, 500 * ms.length);
+        }, 250 * ms.length);
     };
 }
 
@@ -21,7 +21,7 @@ function mymsg(ref, ms) {
                 $(".chatbox span").append(ms[repeats]);
                 repeats++;
             }
-        }, 500);
+        }, 250);
     };
 }
 
@@ -56,6 +56,14 @@ function choice_based(index, a, b, c = null, d = null) {
     }
 }
 
+function wait(ref, ms) {
+    return function () { setTimeout(function () { characters[ref].actions[++characters[ref].index]();},ms) }
+}
+
+function blank(ref) {
+    return function () { characters[ref].actions[++characters[ref].index]();}
+}
+
 function opn(ref) {
     return function () { characters[ref].index++ };
 }
@@ -65,6 +73,40 @@ function end(ref) {
         return;
     }
 }
+
+function clear(ref) {
+    return function () {
+        var table = $("table");
+        table.hide();
+        setTimeout(function () {
+            characters[ref].index++;
+            table.show();
+            init();
+        }, 1000)
+    }
+}
+
+function init() {
+    $("#sidelist").empty();
+    $(".chatlist").empty();
+    for (var i = 0; i < characters.length; i++) {
+        var item = $("<li></li>");
+        item.html("<h5>" + characters[i].name + "</h5><h6>" + characters[i].latest + "</h6>").addClass("unselected");
+        $("#sidelist").append(item)
+        $(".chatlist").append($("<ul/>").attr("id", i.toString()).hide());
+    }
+    $("#sidelist li").click(function () {
+        $("#sidelist li").removeClass("selected").addClass("unselected");
+        $(this).removeClass("unselected").addClass("selected");
+        $(".chats ul").hide();
+        $("#" + $("#sidelist li").index(this)).show();
+        clearInterval(t);
+        $(".chatbox div").empty();
+        characters[$("#sidelist li").index(this)].actions[characters[$("#sidelist li").index(this)].index]();
+    })
+}
+
+
 
 var choices = [];
 

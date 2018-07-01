@@ -3,10 +3,13 @@
     height:100%;
 }
 
-ul {
-    list-style:none;
+.chatlist {
     height:100%;
     overflow:scroll;
+}
+
+ul {
+    list-style:none;
 }
 
 table {
@@ -16,7 +19,9 @@ table {
 
 .side {
     width:30%;
+    vertical-align:top;
 }
+
 
 #sidelist li {
     margin:10px 10px 10px 10px;
@@ -31,11 +36,11 @@ td {
 }
 
 .chats {
-    height:90%;
+    height:80%;
 }
 
 .chatbox {
-    height:10%;
+    height:20%;
 }
 
 .chatbox div button {
