@@ -1,0 +1,52 @@
+﻿body {
+    background-color:#ddddff;
+    height:100%;
+}
+
+ul {
+    list-style:none;
+    height:100%;
+    overflow:scroll;
+}
+
+table {
+    width:100%;
+    table-layout:fixed;
+}
+
+.side {
+    width:30%;
+}
+
+#sidelist li {
+    margin:10px 10px 10px 10px;
+    border-bottom:2px solid #999999;
+    text-align:center;
+    height:60px;
+    vertical-align:middle;
+}
+
+td {
+    height:100%;
+}
+
+.chats {
+    height:90%;
+}
+
+.chatbox {
+    height:10%;
+}
+
+.chatbox div button {
+    background-image:url("../images/Button1.png");
+    background-size:contain;
+}
+
+.unselected {
+    border-right:none;
+}
+
+.selected {
+    border-right:10px solid #ffd800;
+}
