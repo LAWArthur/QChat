@@ -1,0 +1,17 @@
+F:\Documents\vs Projects\QChat\QChat\bin\Debug\ReverseMap\resources.pri
+F:\Documents\vs Projects\QChat\QChat\bin\Debug\AppxManifest.xml
+F:\Documents\vs Projects\QChat\QChat\bin\Debug\QChat.build.appxrecipe
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\QChat.jsproj.CoreCompileInputs.cache
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\ResourceHandlingTask.state
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\priconfig.xml
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\priconfig.xml.intermediate
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\layout.resfiles
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\layout.resfiles.intermediate
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\resources.resfiles
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\resources.resfiles.intermediate
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\pri.resfiles
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\pri.resfiles.intermediate
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\qualifiers.txt
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\qualifiers.txt.intermediate
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\Documents\vs Projects\QChat\QChat\bld\Debug\ProjectArchitectures.txt
