@@ -195,7 +195,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\js\main.js">
       <PackagePath>js\main.js</PackagePath>
-      <Modified>2018-07-03T05:44:29.600</Modified>
+      <Modified>2018-07-03T07:35:31.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\ep1\qchatcharacters.js">
       <PackagePath>ep1\qchatcharacters.js</PackagePath>
@@ -203,7 +203,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\js\qchatapis.js">
       <PackagePath>js\qchatapis.js</PackagePath>
-      <Modified>2018-07-03T05:45:31.364</Modified>
+      <Modified>2018-07-03T05:48:10.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\js\qchatlauncher.js">
       <PackagePath>js\qchatlauncher.js</PackagePath>
@@ -215,7 +215,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\css\qchatbasic.css">
       <PackagePath>css\qchatbasic.css</PackagePath>
-      <Modified>2018-07-03T02:44:05.249</Modified>
+      <Modified>2018-07-03T06:48:31.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

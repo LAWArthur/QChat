@@ -95,9 +95,7 @@ function init() {
         if (window.localStorage.getItem(characters[i].name) != null && !launched) {
             characters[i].index = parseInt(window.localStorage.getItem(characters[i].name));
         }
-        if (Windows.Storage.ApplicationData.current.localSettings.values["indices"] != null && !launched) {
-            characters[i].index = Windows.Storage.ApplicationData.current.localSettings.values["indices"][characters[i].name];
-        }
+
         var item = $("<li></li>");
         item.html("<h5>" + characters[i].name + "</h5><h6></h6>").addClass("unselected");
         $("#sidelist").append(item)
@@ -105,11 +103,6 @@ function init() {
     }
     if (window.localStorage.getItem("choices") != null && !launched) {
         $.each(window.localStorage.getItem("choices").split(""), function (i, item) {
-            choices.push(parseInt(item));
-        });
-    }
-    if (Windows.Storage.ApplicationData.current.localSettings.values["choices"] != null && !launched) {
-        $.each(Windows.Storage.ApplicationData.current.localSettings.values["choices"].split(""), function (i, item) {
             choices.push(parseInt(item));
         });
     }
@@ -126,20 +119,11 @@ function init() {
 }
 
 function dtor() {
-    if (window.localStorage) {
-        $.each(characters, function (i, item) {
-            window.localStorage.setItem(item.name, item.index)
-        });
-        window.localStorage.setItem("choices", choices.join(""));
-    }
-    if (Windows.Storage) {
-        var cop = new Windows.Storage.ApplicationDataCompositeValue();
-        $.each(characters, function (i, item) {
-            cop[item.name] = item.index;
-        });
-        Windows.Storage.ApplicationData.current.localSettings.values["indices"] = cop;
-        Windows.Storage.ApplicationData.current.localSettings.values["choices"] = choices.join("");
-    }
+    if (!window.localStorage) return;
+    $.each(characters, function (i, item) {
+        window.localStorage.setItem(item.name, item.index)
+    });
+    window.localStorage.setItem("choices", choices.join(""));
 }
 
 var choices = [];
