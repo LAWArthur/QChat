@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-OUG6DQPO</Machine>
-    <WindowsUser>jincai3335</WindowsUser>
+    <Machine>JKZHANG-MIDESKT</Machine>
+    <WindowsUser>JKZHANG</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>b5695436-ab47-498c-8f50-6e283707d2a7</PackageIdentityName>
     <PackageIdentityPublisher>CN=JKZHANG</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\Documents\vs Projects\QChat\QChat\bld\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bin\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\Documents\vs Projects\QChat\QChat\bin\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>3AA10709DA63560F3C10293CF9DC85FBCAEFA037129F3BE784D31BDE6DFA99C6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b5695436-ab47-498c-8f50-6e283707d2a7_1.0.0.0_neutral__92s2aq9rwmw9r</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b5695436-ab47-498c-8f50-6e283707d2a7_92s2aq9rwmw9r!App</RegisteredUserModeAppID>
@@ -29,198 +29,198 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="F:\Documents\vs Projects\QChat\QChat\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T13:33:51.121</Modified>
+      <Modified>2018-07-03T02:36:31.076</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Background1.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Background1.png">
       <PackagePath>images\Background1.png</PackagePath>
-      <Modified>2018-07-02T10:34:16.919</Modified>
+      <Modified>2018-07-02T01:34:07.778</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Button1.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Button1.png">
       <PackagePath>images\Button1.png</PackagePath>
-      <Modified>2018-07-02T10:34:16.921</Modified>
+      <Modified>2018-07-02T01:34:07.778</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\LargeTile.scale-100.png">
       <PackagePath>images\LargeTile.scale-100.png</PackagePath>
-      <Modified>2018-07-02T10:34:16.923</Modified>
+      <Modified>2018-07-02T01:34:07.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\LargeTile.scale-200.png">
       <PackagePath>images\LargeTile.scale-200.png</PackagePath>
-      <Modified>2018-07-02T10:34:16.925</Modified>
+      <Modified>2018-07-02T01:34:07.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\LargeTile.scale-400.png">
       <PackagePath>images\LargeTile.scale-400.png</PackagePath>
-      <Modified>2018-07-02T10:34:16.927</Modified>
+      <Modified>2018-07-02T01:34:07.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\logo.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
-      <Modified>2018-07-02T10:34:16.972</Modified>
+      <Modified>2018-07-02T01:34:07.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\me.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\me.png">
       <PackagePath>images\me.png</PackagePath>
-      <Modified>2018-07-02T13:24:44.499</Modified>
+      <Modified>2018-07-03T02:36:31.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.977</Modified>
+      <Modified>2018-07-02T01:34:07.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\splashscreen.scale-400.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\splashscreen.scale-400.png">
       <PackagePath>images\splashscreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.980</Modified>
+      <Modified>2018-07-02T01:34:07.792</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.931</Modified>
+      <Modified>2018-07-02T01:34:07.783</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square150x150Logo.scale-400.png">
       <PackagePath>images\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.935</Modified>
+      <Modified>2018-07-02T01:34:07.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.937</Modified>
+      <Modified>2018-07-02T01:34:07.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.940</Modified>
+      <Modified>2018-07-02T01:34:07.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.944</Modified>
+      <Modified>2018-07-02T01:34:07.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square44x44Logo.scale-100.png">
       <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.949</Modified>
+      <Modified>2018-07-02T01:34:07.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square44x44Logo.scale-400.png">
       <PackagePath>images\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.954</Modified>
+      <Modified>2018-07-02T01:34:07.787</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square44x44Logo.targetsize-16.png">
       <PackagePath>images\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.956</Modified>
+      <Modified>2018-07-02T01:34:07.787</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square44x44Logo.targetsize-256.png">
       <PackagePath>images\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.959</Modified>
+      <Modified>2018-07-02T01:34:07.788</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square44x44Logo.targetsize-48.png">
       <PackagePath>images\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.961</Modified>
+      <Modified>2018-07-02T01:34:07.789</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\storelogo.scale-100.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.983</Modified>
+      <Modified>2018-07-02T01:34:07.792</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\storelogo.scale-200.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\storelogo.scale-200.png">
       <PackagePath>images\storelogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.986</Modified>
+      <Modified>2018-07-02T01:34:07.793</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\storelogo.scale-400.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\storelogo.scale-400.png">
       <PackagePath>images\storelogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.990</Modified>
+      <Modified>2018-07-02T01:34:07.793</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.964</Modified>
+      <Modified>2018-07-02T01:34:07.789</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Wide310x150Logo.scale-400.png">
       <PackagePath>images\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.969</Modified>
+      <Modified>2018-07-02T01:34:07.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\孤铜.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\孤铜.png">
       <PackagePath>images\孤铜.png</PackagePath>
-      <Modified>2018-07-02T13:32:43.572</Modified>
+      <Modified>2018-07-03T02:36:31.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\江流宛转.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\江流宛转.png">
       <PackagePath>images\江流宛转.png</PackagePath>
-      <Modified>2018-07-02T13:29:12.598</Modified>
+      <Modified>2018-07-03T02:36:31.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\SplashScreen.scale-200.png">
       <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.929</Modified>
+      <Modified>2018-07-02T01:34:07.782</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square150x150Logo.scale-200.png">
       <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.933</Modified>
+      <Modified>2018-07-02T01:34:07.783</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Square44x44Logo.scale-200.png">
       <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.951</Modified>
+      <Modified>2018-07-02T01:34:07.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\images\Wide310x150Logo.scale-200.png">
       <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T10:34:16.966</Modified>
+      <Modified>2018-07-02T01:34:07.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\index.html">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2018-07-02T10:36:47.078</Modified>
+      <Modified>2018-07-03T05:05:39.677</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\ep1\qchat.html">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\ep1\qchat.html">
       <PackagePath>ep1\qchat.html</PackagePath>
-      <Modified>2018-07-02T12:28:27.947</Modified>
+      <Modified>2018-07-03T02:36:31.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\js\jquery-3.3.1.intellisense.js">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\js\jquery-3.3.1.intellisense.js">
       <PackagePath>js\jquery-3.3.1.intellisense.js</PackagePath>
-      <Modified>2018-07-02T10:34:17.005</Modified>
+      <Modified>2018-07-02T01:34:07.796</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\js\jquery-3.3.1.js">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\js\jquery-3.3.1.js">
       <PackagePath>js\jquery-3.3.1.js</PackagePath>
-      <Modified>2018-07-02T10:34:17.014</Modified>
+      <Modified>2018-07-02T01:34:07.799</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\js\main.js">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\js\main.js">
       <PackagePath>js\main.js</PackagePath>
-      <Modified>2018-07-02T10:34:17.019</Modified>
+      <Modified>2018-07-03T05:44:29.600</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\ep1\qchatcharacters.js">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\ep1\qchatcharacters.js">
       <PackagePath>ep1\qchatcharacters.js</PackagePath>
-      <Modified>2018-07-02T13:47:44.656</Modified>
+      <Modified>2018-07-03T03:55:22.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\js\qchatapis.js">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\js\qchatapis.js">
       <PackagePath>js\qchatapis.js</PackagePath>
-      <Modified>2018-07-02T13:45:47.149</Modified>
+      <Modified>2018-07-03T05:45:31.364</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\js\qchatlauncher.js">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\js\qchatlauncher.js">
       <PackagePath>js\qchatlauncher.js</PackagePath>
-      <Modified>2018-07-02T13:00:08.464</Modified>
+      <Modified>2018-07-03T05:08:41.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\css\default.css">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2018-07-02T10:36:47.017</Modified>
+      <Modified>2018-07-03T02:36:31.090</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\css\qchatbasic.css">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\css\qchatbasic.css">
       <PackagePath>css\qchatbasic.css</PackagePath>
-      <Modified>2018-07-02T13:19:15.831</Modified>
+      <Modified>2018-07-03T02:44:05.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="F:\Documents\vs Projects\QChat\QChat\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-02T13:33:50.688</Modified>
+      <Modified>2018-07-03T02:37:03.496</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

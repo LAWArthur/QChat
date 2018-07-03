@@ -1,1 +1,1 @@
-D:\Documents\Visual Studio 2017\Projects\QChat\QChat\QChat.jsproj;neutral
+F:\Documents\vs Projects\QChat\QChat\QChat.jsproj;neutral
