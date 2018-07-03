@@ -1,7 +1,7 @@
 ﻿function msg(ref, ms) {
     return function () {
         t = setInterval(function () {
-            $("#" + ref).append($("<li></li>").append($("<img/>").attr("src", "../images/" + characters[ref].name + ".png")).append(ms));
+            $("#" + ref).append($("<li></li>").append($("<img/>").attr({ "src": "../images/" + characters[ref].name + ".png", "height": "16", "width": "16" })).append(ms));
             clearInterval(t);
             $("#sidelist").children().eq(ref).children().eq(1).text(ms);
             characters[ref].actions[++characters[ref].index]();
@@ -15,7 +15,7 @@ function mymsg(ref, ms) {
         var t = setInterval(function () {
             if (repeats == ms.length) {
                 $(".chatbox span").empty();
-                $("#" + ref).append($("<li></li>").append($("<div/>").css({ "width": "100%", "text-align": "right" }).append(ms).append($("<img/>").attr("src", "../images/me.png"))));
+                $("#" + ref).append($("<li></li>").append($("<div/>").css({ "width": "100%", "text-align": "right" }).append(ms).append($("<img/>").attr({ "src": "../images/me.png", "height": "16", "width": "16" }))));
                 clearInterval(t);
                 $("#sidelist").children().eq(ref).children().eq(1).text(ms);
                 characters[ref].actions[++characters[ref].index]();
@@ -66,8 +66,8 @@ function blank(ref) {
     return function () { characters[ref].actions[++characters[ref].index]();}
 }
 
-function opn(ref) {
-    return function () { characters[ref].index++ };
+function opn(ref, tar) {
+    return function () { characters[tar].index++; characters[ref].actions[++characters[ref].index](); };
 }
 
 function end(ref) {

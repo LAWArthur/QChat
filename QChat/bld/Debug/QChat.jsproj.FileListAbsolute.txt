@@ -15,3 +15,20 @@ F:\Documents\vs Projects\QChat\QChat\bld\Debug\qualifiers.txt
 F:\Documents\vs Projects\QChat\QChat\bld\Debug\qualifiers.txt.intermediate
 F:\Documents\vs Projects\QChat\QChat\bld\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\Documents\vs Projects\QChat\QChat\bld\Debug\ProjectArchitectures.txt
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bin\Debug\ReverseMap\resources.pri
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bin\Debug\AppxManifest.xml
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bin\Debug\QChat.build.appxrecipe
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\QChat.jsproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\ResourceHandlingTask.state
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\priconfig.xml
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\priconfig.xml.intermediate
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\layout.resfiles
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\layout.resfiles.intermediate
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\resources.resfiles
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\resources.resfiles.intermediate
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\pri.resfiles
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\pri.resfiles.intermediate
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\qualifiers.txt
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\qualifiers.txt.intermediate
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Documents\Visual Studio 2017\Projects\QChat\QChat\bld\Debug\ProjectArchitectures.txt

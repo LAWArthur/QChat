@@ -3,6 +3,10 @@
     height:100%;
 }
 
+img {
+    border-radius:3px;
+}
+
 .chatlist {
     height:100%;
     overflow:scroll;
@@ -14,7 +18,7 @@ ul {
 
 table {
     width:100%;
-    table-layout:fixed;
+    table-layout: fixed;
 }
 
 .side {
@@ -32,6 +36,7 @@ table {
 }
 
 td {
+    border: 2px groove #999999;
     height:100%;
 }
 

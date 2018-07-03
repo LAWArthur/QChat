@@ -8,6 +8,7 @@ images\LargeTile.scale-100.png
 images\LargeTile.scale-200.png
 images\LargeTile.scale-400.png
 images\logo.png
+images\me.png
 images\splashscreen.scale-100.png
 images\SplashScreen.scale-200.png
 images\splashscreen.scale-400.png
@@ -29,6 +30,8 @@ images\storelogo.scale-400.png
 images\Wide310x150Logo.scale-100.png
 images\Wide310x150Logo.scale-200.png
 images\Wide310x150Logo.scale-400.png
+images\孤铜.png
+images\江流宛转.png
 index.html
 js\jquery-3.3.1.intellisense.js
 js\jquery-3.3.1.js
