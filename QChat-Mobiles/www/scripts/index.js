@@ -13,6 +13,10 @@
         document.addEventListener( 'resume', onResume.bind( this ), false );
         
         // TODO: Cordova 已加载。在此处执行任何需要 Cordova 的初始化。
+        $("body").height(window.innerHeight * 0.95);
+        $(window).resize(function () {
+            $("body").height(window.innerHeight * 0.95);
+        })
         if (!window.localStorage) {
             alert("你的浏览器不支持本地存储，这意味着你做出的所有选择和游戏进度都不会被保存");
         }
