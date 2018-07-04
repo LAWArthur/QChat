@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.myapp3346d6" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" defaultlocale="zh-CN" android-versionCode="10000">
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.myapp3346d6" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" defaultlocale="zh-CN" android-versionCode="">
   <name>QChat-Mobiles</name>
   <description>QChat:The game</description>
   <author href="http://cordova.io" email="dev@cordova.apache.org">LAWArthur</author>
@@ -105,5 +105,4 @@
   </platform>
   <preference name="Orientation" value="landscape" />
   <preference name="Fullscreen" value="True" />
-  <preference name="KeepRunning" value="False" />
 </widget>

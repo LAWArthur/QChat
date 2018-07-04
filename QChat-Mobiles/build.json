@@ -1,10 +1,10 @@
 {
      "android": {
          "release": {
-             "keystore": "f:/keystores/qchat.keystore",
-             "storePassword": "111111",
-             "alias": "qchat",
-             "password" : "111111",
+             "keystore": "",
+             "storePassword": "",
+             "alias": "",
+             "password" : "",
              "keystoreType": ""
          }
      }
