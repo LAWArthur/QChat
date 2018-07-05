@@ -69,3 +69,10 @@ td {
 .chatlist ul li {
     margin:2px 20px 2px 5px;
 }
+
+.system {
+    background:#cccccc;
+    border-radius:5px 5px;
+    text-align:center;
+    
+}

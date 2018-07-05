@@ -1,2 +1,4 @@
 *.psd
 build.json
+*.suo
+*.dtbcache

@@ -58,12 +58,16 @@ function choice_based(index, a, b, c = null, d = null) {
     }
 }
 
+function system(ref, txt) {
+    return function () { $("#" + ref).append($("<li></li>").append($("<div/>").addClass("system").append(txt))); characters[ref].actions[++characters[ref].index](); }
+}
+
 function wait(ref, ms) {
     return function () { t = setInterval(function () { clearInterval(t); characters[ref].actions[++characters[ref].index]();},ms) }
 }
 
 function blank(ref) {
-    return function () { characters[ref].actions[++characters[ref].index]();}
+    return function () { characters[ref].actions[++characters[ref].index](); }
 }
 
 function opn(ref, tar) {
@@ -77,15 +81,7 @@ function end(ref) {
 }
 
 function clear(ref) {
-    return function () {
-        var table = $("table");
-        table.hide();
-        setTimeout(function () {
-            characters[ref].index++;
-            table.show();
-            init();
-        }, 1000)
-    }
+    return function () { $("#" + ref).empty(); characters[ref].actions[++characters[ref].index](); }
 }
 
 function init() {
@@ -113,6 +109,7 @@ function init() {
             choices.push(parseInt(item));
         });
     }
+    $("#sidelist li").unbind("click");
     $("#sidelist li").click(function () {
         $("#sidelist li").removeClass("selected").addClass("unselected");
         $(this).removeClass("unselected").addClass("selected");
@@ -148,8 +145,10 @@ function analyze(str, i) {
                 break;
             case "^":
                 var list = str.substring(1).split(/[0-9]+/)[1].split("^");
-                console.log(list)
                 return choice_based(parseInt(str.substring(1), 10), analyze(list[0], i), analyze(list[1], i), list[2] ? analyze(list[2], i) : null, list[3] ? analize(list[3], i) : null);
+                break;
+            case "@":
+                return system(i, str.substring(1));
                 break;
             case "/":
                 return wait(i, parseInt(str.substring(1)));
