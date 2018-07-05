@@ -59,7 +59,7 @@ function choice_based(index, a, b, c = null, d = null) {
 }
 
 function wait(ref, ms) {
-    return function () { setTimeout(function () { characters[ref].actions[++characters[ref].index]();},ms) }
+    return function () { t = setInterval(function () { clearInterval(t); characters[ref].actions[++characters[ref].index]();},ms) }
 }
 
 function blank(ref) {
@@ -96,6 +96,13 @@ function init() {
             characters[i].index = parseInt(window.localStorage.getItem(characters[i].name));
         }
 
+        if (!launched) {
+            for (var index = 0; index < characters[i].actions.length;index++) {
+                var str = characters[i].actions[index];
+                characters[i].actions[index] = analyze(str, i);
+            }
+        }
+
         var item = $("<li></li>");
         item.html("<h5>" + characters[i].name + "</h5><h6></h6>").addClass("unselected");
         $("#sidelist").append(item)
@@ -124,6 +131,43 @@ function dtor() {
         window.localStorage.setItem(item.name, item.index)
     });
     window.localStorage.setItem("choices", choices.join(""));
+}
+
+function analyze(str, i) {
+    if (typeof (str) == "string") {
+        switch (str[0]) {
+            case ".":
+                return msg(i, str.substring(1));
+                break;
+            case ":":
+                return mymsg(i, str.substring(1));
+                break;
+            case "$":
+                var list = str.substring(1).split("^");
+                return choice(i, list[0], list[1], list[2] ? list[2] : null, list[3] ? list[3] : null);
+                break;
+            case "^":
+                var list = str.substring(1).split(/[0-9]+/)[1].split("^");
+                console.log(list)
+                return choice_based(parseInt(str.substring(1), 10), analyze(list[0], i), analyze(list[1], i), list[2] ? analyze(list[2], i) : null, list[3] ? analize(list[3], i) : null);
+                break;
+            case "/":
+                return wait(i, parseInt(str.substring(1)));
+                break;
+            case "-":
+                return blank(i);
+                break;
+            case "#":
+                return opn(i, parseInt(str.substring(1)));
+                break;
+            case "!":
+                return end(i);
+                break;
+            default:
+                throw new SyntaxError("Invalid QuickMark syntax");
+        }
+    }
+    return str;
 }
 
 var choices = [];

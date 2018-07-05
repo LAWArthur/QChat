@@ -5,6 +5,6 @@
     <AndroidEmulatorID>AndroidDevice;设备</AndroidEmulatorID>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
-    <DebuggerFlavor>SimulateNexus7</DebuggerFlavor>
+    <DebuggerFlavor>SimulateG5</DebuggerFlavor>
   </PropertyGroup>
 </Project>

@@ -20,10 +20,13 @@
     function onPause() {
         // TODO: 此应用程序已挂起。在此处保存应用程序状态。
         dtor();
+        clearInterval(t);
+        $(".chatbox div").empty();
     };
 
     function onResume() {
         // TODO: 此应用程序已重新激活。在此处还原应用程序状态。
+        init();
     };
 })();
 function fit() {

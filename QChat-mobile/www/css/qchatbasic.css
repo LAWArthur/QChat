@@ -36,6 +36,10 @@ table {
     vertical-align:middle;
 }
 
+#sidelist li * {
+    margin:2px 0px 0px 0px;
+}
+
 td {
     border: 2px groove #999999;
     height:100%;
