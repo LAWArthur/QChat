@@ -1,4 +1,4 @@
 *.psd
 build.json
-*.suo
-*.dtbcache
+.vs\
+.vs\q\QChat\v15\.suo

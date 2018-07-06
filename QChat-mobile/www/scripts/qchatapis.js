@@ -144,8 +144,8 @@ function analyze(str, i) {
                 return choice(i, list[0], list[1], list[2] ? list[2] : null, list[3] ? list[3] : null);
                 break;
             case "^":
-                var list = str.substring(1).split(/[0-9]+/)[1].split("^");
-                return choice_based(parseInt(str.substring(1), 10), analyze(list[0], i), analyze(list[1], i), list[2] ? analyze(list[2], i) : null, list[3] ? analize(list[3], i) : null);
+                var list = str.substring(str.search(/[0-9]+/) + str.match(/[0-9]+/)[0].length).split("^");
+                return choice_based(parseInt(str.substring(1), 10), analyze(list[0], i), analyze(list[1], i), list[2] ? analyze(list[2], i) : null, list[3] ? analyze(list[3], i) : null);
                 break;
             case "@":
                 return system(i, str.substring(1));
